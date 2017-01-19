@@ -21,18 +21,19 @@ body {
 .menu ul,
 .menu li,
 .menu a {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 10;
     border: none;
     outline: none;
 }
 
 .menu {
+    
     height: 40px;
-    width: 505px;
-    background: MidnightBlue;
+    width: 460px;
+    background: Black;
     background: linear-gradient(top, black 0%, white 100%);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .menu li {
@@ -44,13 +45,13 @@ body {
 }
 
 .menu ul {
+    margin: auto;
     position: absolute;
     top: 40px;
     left: 0;
     opacity: 0;
     background: #1f2024;
     border-radius: 0 0 5px 5px;
-
     transition: opacity .25s ease .1s;
 }
 
@@ -66,7 +67,7 @@ body {
 }
 
 .menu li:hover>ul li {
-    height: 36px;
+    height: 40px;
     overflow: visible;
     padding: 0;
 }
